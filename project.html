@@ -66,9 +66,9 @@
                             <div class="card-header">Marnick Goossens</div>
                             <div class="card-body">
                                 <h5 class="card-title">Leerling 6IICT</h5>
-                                <p class="card-text">Ik ben de leerling die deze geïntegreerde proef gemaakt heeft met
-                                    heel veel
-                                    plezier</p>
+                                <p class="card-text">
+                                    Ik ben de leerling die deze geïntegreerde proef gemaakt heeft met heel veel plezier.
+                                </p>
                             </div>
                         </div>
                     </section>
@@ -80,8 +80,10 @@
                             <div class="card-header">Johan Colson</div>
                             <div class="card-body">
                                 <h5 class="card-title">GIP begeleider</h5>
-                                <p class="card-text">Meneer Colson die zeer veel ondersteuning heeft geboden in het
-                                    maken van het project</p>
+                                <p class="card-text">
+                                    Meneer Colson die zeer veel ondersteuning heeft geboden in het maken van het
+                                    project.
+                                </p>
                             </div>
                         </div>
                     </section>
@@ -93,8 +95,9 @@
                             <div class="card-header">Hendrik Clijsters</div>
                             <div class="card-body">
                                 <h5 class="card-title">GIP begeleider</h5>
-                                <p class="card-text">Meneer Clijsters die mij veel heeft geholpen in het maken van de
-                                    website.</p>
+                                <p class="card-text">
+                                    Meneer Clijsters die mij veel heeft geholpen in het maken van de website.
+                                </p>
                             </div>
                         </div>
                     </section>
@@ -106,8 +109,10 @@
                             <div class="card-header">Takis Issaris</div>
                             <div class="card-body">
                                 <h5 class="card-title">GIP begeleider</h5>
-                                <p class="card-text">Meneer Issaris heeft veel geholpen bij het maken van het programma
-                                    en het aansturen van de led-matrix</p>
+                                <p class="card-text">
+                                    Meneer Issaris heeft veel geholpen bij het maken van het programma en het aansturen
+                                    van de led-matrix.
+                                </p>
                             </div>
                         </div>
                     </section>
@@ -146,6 +151,14 @@
                             kan je er weinig mee. Het micro-SD kaartje kan je makkelijk in de micro-SD slot/gleuf doen.
                             Op deze SD-kaart zet je je besturingssysteem met behulp van de Raspberry Pi Imager. Daarna
                             kan je je programma dat je gemaakt hebt op de SD-kaart zetten.
+                            <br>
+                            <br>
+                            Op de Raspberry Pi zitten GPIO pinnen, op deze pinnen kan je als ingangen en uitgangen
+                            gebruiken. Zo kan je sensoren uitlezen maar ook bijvoorbeeld ledjes of motoren aansturen. In
+                            mijn geval heb ik het scherm en de led-matrix hierop aangesloten. De led-matrix gebruikt 16
+                            pinnen en gebruikt seriële data-communicatie die binair en synchroon loopt. Het scherm wordt
+                            niet aangesloten via de GPIO pinnen maar via de display port op de Raspberry Pi die het
+                            mogelijk maakt om het scherm met touch te gebruiken.
                         </div>
                     </div>
                 </div>
@@ -175,9 +188,11 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            De led-matrix dient op feedback te geven op de oefeningen. Zo worden er blij emoji's getoond
-                            bij een goed antwoord en slechte of droevige emoji's bij een slecht antwoord. Deze wordt ook
-                            gevoed door de voeding door 4 dragen. 2 plus draden en 2 grounds.
+                            De led-matrix word biedient door een led-matrix controller. De controller kan je op de GPIO
+                            pinnen van de Raspberry Pi aanstuiten. De led-matrix dient om feedback te geven
+                            op de oefeningen. Zo worden er blij emoji's getoond bij een goed antwoord en slechte of
+                            droevige emoji's bij een slecht antwoord. Deze wordt ook gevoed door de voeding met 4
+                            dragen, 2 plus draden en 2 grounds.
                         </div>
                     </div>
                 </div>
